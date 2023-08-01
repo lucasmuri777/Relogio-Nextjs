@@ -12,7 +12,7 @@ useEffect(()=>{
     pegarTime()
     return
   }
-  const setTime = setInterval(pegarTime,10000)
+  const setTime = setInterval(pegarTime,3000)
   function pegarTime(){
     const fullTime1 = new Intl.DateTimeFormat('pt-BR', {
       timeStyle: 'short',
